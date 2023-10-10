@@ -1,0 +1,38 @@
+FILE_PATH: "/Users/tanyagolubev/Projects/deploy-impact-23-shift-3/data/glassdore/glassdoor.csv"
+
+SWISS_LOCATION:
+  - 'CH'
+  - 'SWITZERLANDS'
+
+COLS: 
+    'header.jobTitle': 'job_title'
+    'header.employerName': 'employer_name'
+    'header.location': 'location_city'
+    'job.description': 'job_description'
+    'map.country': 'location_country'
+    'overview.industry': 'industry'
+    'overview.description': 'raw_description'
+    'overview.mission': 'values'
+    'overview.website': 'website'
+
+TECH_KEYWORDS: 
+    - 'computer'
+    - 'recognition'
+    - 'nlp'
+    - 'developer'
+    - 'data'
+    - 'information'
+    - 'software'
+    - 'database'
+    - 'programming'
+    - 'ai'
+    - 'ml'
+    - 'application'
+    - 'frontend'
+    - 'backend'
+
+SENIOR_KEYWORDS:
+    - 'senior'
+    - 'lead'
+    - 'head'
+    - 'partner'

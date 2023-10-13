@@ -1,8 +1,9 @@
-FILE_PATH: "/Users/tanyagolubev/Projects/deploy-impact-23-shift-3/data/glassdore/glassdoor.csv"
+TABLE_PATH: "/Users/tanyagolubev/Projects/deploy-impact-23-shift-3/data/glassdore/glassdoor.csv"
+LANGUAGE_PATH: "/Users/tanyagolubev/Projects/deploy-impact-23-shift-3/data/languages.csv"
 
 SWISS_LOCATION:
-  - 'CH'
-  - 'SWITZERLANDS'
+    - 'CH'
+    - 'SWITZERLANDS'
 
 COLS: 
     'header.jobTitle': 'job_title'
@@ -11,7 +12,6 @@ COLS:
     'job.description': 'job_description'
     'map.country': 'location_country'
     'overview.industry': 'industry'
-    'overview.description': 'raw_description'
     'overview.mission': 'values'
     'overview.website': 'website'
 
